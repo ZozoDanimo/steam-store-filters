@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/SteamClientHomebrew/Millennium/main/src/sys/plugin-schema.json",
 	"name": "steam-store-filters",
 	"common_name": "Steam Store Filters",
-	"description": "Search the Steam catalog by tags and sort by Wilson score or SteamDB rating. Inspired by lorenzostanco.com/lab/steam/store/",
+	"description": "Bypass Steam's promotion algorithm and discover games on your own terms. Search the full catalog by tags, filter by language, platform and features, and rank results by Wilson score or SteamDB rating instead of paid visibility.",
 	"version": "1.0.0",
 	"author": "ZozoDanimo",
 	"backendType": "lua"
