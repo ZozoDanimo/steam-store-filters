@@ -1,0 +1,9 @@
+{
+	"$schema": "https://raw.githubusercontent.com/SteamClientHomebrew/Millennium/main/src/sys/plugin-schema.json",
+	"name": "steam-store-filters",
+	"common_name": "Steam Store Filters",
+	"description": "Search the Steam catalog by tags and sort by Wilson score or SteamDB rating. Inspired by lorenzostanco.com/lab/steam/store/",
+	"version": "1.0.0",
+	"author": "ZozoDanimo",
+	"backendType": "lua"
+}

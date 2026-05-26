@@ -1,0 +1,38 @@
+/* Steam Store Filters — global styles injected by Millennium */
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+#ssf-page-root,
+#ssf-sidebar-entry ~ * {
+  box-sizing: border-box;
+}
+
+/* Dropdown hover state (can't use :hover in inline styles) */
+#ssf-page-root [data-ssf-item]:hover {
+  background: rgba(102, 192, 244, 0.08);
+}
+
+/* Game card hover */
+#ssf-page-root [data-ssf-card]:hover {
+  border-color: rgba(102, 192, 244, 0.35) !important;
+  background: rgba(255, 255, 255, 0.07) !important;
+}
+
+/* Search button hover */
+#ssf-page-root button[data-ssf-search]:hover {
+  filter: brightness(1.1);
+}
+
+/* Scrollbar styling for results area */
+#ssf-page-root ::-webkit-scrollbar {
+  width: 6px;
+}
+#ssf-page-root ::-webkit-scrollbar-track {
+  background: transparent;
+}
+#ssf-page-root ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
+}

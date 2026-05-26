@@ -1,0 +1,27 @@
+{
+	"scripts": {
+		"dev": "millennium-ttc --build dev",
+		"build": "millennium-ttc --build prod"
+	},
+	"devDependencies": {
+		"@babel/preset-env": "^7.28.3",
+		"@babel/preset-react": "^7.27.1",
+		"@babel/traverse": "^7.28.3",
+		"@types/react": "^18.3.29",
+		"@types/react-dom": "^18.3.7",
+		"@types/webpack": "^5.28.5"
+	},
+	"type": "module",
+	"name": "steam-store-filters",
+	"version": "1.0.0",
+	"description": "Search the Steam catalog by tags and sort by Wilson score",
+	"main": "./frontend/index.tsx",
+	"author": "steam-store-filters",
+	"license": "MIT",
+	"dependencies": {
+		"@steambrew/api": "^5.5.3",
+		"@steambrew/client": "^5.5.3",
+		"@steambrew/ttc": "^2.8.7",
+		"@steambrew/webkit": "^5.5.3"
+	}
+}

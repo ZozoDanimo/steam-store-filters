@@ -1,0 +1,16 @@
+# Build output
+.millennium/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.windsurf/
+.vscode/
+
+# Logs
+*.log
